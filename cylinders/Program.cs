@@ -10,11 +10,11 @@ namespace cylinders
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Press enter to start.");
+            Console.WriteLine("Would you like to examine cylinders?");
             
             string userInput = Console.ReadLine();
 
-            while (userInput != "no")
+            while (userInput == "yes")
             {
                 Console.WriteLine("Let's examine cylinders.");
                 Console.WriteLine("What is radius?");
